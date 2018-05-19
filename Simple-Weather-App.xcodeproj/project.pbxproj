@@ -12,6 +12,8 @@
 		D8A1F57820B05EEE00D45EEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8A1F57620B05EEE00D45EEA /* LaunchScreen.storyboard */; };
 		D8A1F58420B05F2D00D45EEA /* DisplayWeatherVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A1F58220B05F2D00D45EEA /* DisplayWeatherVC.swift */; };
 		D8A1F58520B05F2D00D45EEA /* DisplayWeatherVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8A1F58320B05F2D00D45EEA /* DisplayWeatherVC.xib */; };
+		D8A1F58720B0633200D45EEA /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A1F58620B0633200D45EEA /* Weather.swift */; };
+		D8A1F58920B0634000D45EEA /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A1F58820B0634000D45EEA /* Location.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		D8A1F57920B05EEE00D45EEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D8A1F58220B05F2D00D45EEA /* DisplayWeatherVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayWeatherVC.swift; sourceTree = "<group>"; };
 		D8A1F58320B05F2D00D45EEA /* DisplayWeatherVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DisplayWeatherVC.xib; sourceTree = "<group>"; };
+		D8A1F58620B0633200D45EEA /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		D8A1F58820B0634000D45EEA /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +72,8 @@
 		D8A1F57F20B05EFA00D45EEA /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				D8A1F58620B0633200D45EEA /* Weather.swift */,
+				D8A1F58820B0634000D45EEA /* Location.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -161,6 +167,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D8A1F58420B05F2D00D45EEA /* DisplayWeatherVC.swift in Sources */,
+				D8A1F58720B0633200D45EEA /* Weather.swift in Sources */,
+				D8A1F58920B0634000D45EEA /* Location.swift in Sources */,
 				D8A1F56E20B05EEE00D45EEA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
