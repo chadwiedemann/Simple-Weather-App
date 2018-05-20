@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D816FE5D20B0A82B0084CFDA /* MyLocationAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D816FE5C20B0A82B0084CFDA /* MyLocationAnnotation.swift */; };
+		D816FE5F20B0DAFD0084CFDA /* convertKelvinToFahrenheit.swift in Sources */ = {isa = PBXBuildFile; fileRef = D816FE5E20B0DAFD0084CFDA /* convertKelvinToFahrenheit.swift */; };
+		D816FE6120B107420084CFDA /* createStringWithLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D816FE6020B107420084CFDA /* createStringWithLocation.swift */; };
+		D816FE6320B107790084CFDA /* createLocationFromString.swift in Sources */ = {isa = PBXBuildFile; fileRef = D816FE6220B107790084CFDA /* createLocationFromString.swift */; };
 		D8A1F56E20B05EEE00D45EEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A1F56D20B05EEE00D45EEA /* AppDelegate.swift */; };
 		D8A1F57520B05EEE00D45EEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8A1F57420B05EEE00D45EEA /* Assets.xcassets */; };
 		D8A1F57820B05EEE00D45EEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8A1F57620B05EEE00D45EEA /* LaunchScreen.storyboard */; };
@@ -14,9 +18,15 @@
 		D8A1F58520B05F2D00D45EEA /* DisplayWeatherVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8A1F58320B05F2D00D45EEA /* DisplayWeatherVC.xib */; };
 		D8A1F58720B0633200D45EEA /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A1F58620B0633200D45EEA /* Weather.swift */; };
 		D8A1F58920B0634000D45EEA /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A1F58820B0634000D45EEA /* Location.swift */; };
+		D8A1F58C20B0711300D45EEA /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A1F58B20B0711300D45EEA /* NetworkController.swift */; };
+		D8A1F58E20B092F200D45EEA /* DataAccessObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A1F58D20B092F200D45EEA /* DataAccessObject.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D816FE5C20B0A82B0084CFDA /* MyLocationAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyLocationAnnotation.swift; sourceTree = "<group>"; };
+		D816FE5E20B0DAFD0084CFDA /* convertKelvinToFahrenheit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = convertKelvinToFahrenheit.swift; sourceTree = "<group>"; };
+		D816FE6020B107420084CFDA /* createStringWithLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = createStringWithLocation.swift; sourceTree = "<group>"; };
+		D816FE6220B107790084CFDA /* createLocationFromString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = createLocationFromString.swift; sourceTree = "<group>"; };
 		D8A1F56A20B05EEE00D45EEA /* Simple-Weather-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Simple-Weather-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8A1F56D20B05EEE00D45EEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D8A1F57420B05EEE00D45EEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -26,6 +36,8 @@
 		D8A1F58320B05F2D00D45EEA /* DisplayWeatherVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DisplayWeatherVC.xib; sourceTree = "<group>"; };
 		D8A1F58620B0633200D45EEA /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
 		D8A1F58820B0634000D45EEA /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		D8A1F58B20B0711300D45EEA /* NetworkController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkController.swift; sourceTree = "<group>"; };
+		D8A1F58D20B092F200D45EEA /* DataAccessObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataAccessObject.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,9 +71,11 @@
 			isa = PBXGroup;
 			children = (
 				D8A1F56D20B05EEE00D45EEA /* AppDelegate.swift */,
+				D8A1F58A20B070ED00D45EEA /* Utilities */,
 				D8A1F58120B05F0500D45EEA /* Controllers */,
 				D8A1F58020B05F0000D45EEA /* Views */,
 				D8A1F57F20B05EFA00D45EEA /* Model */,
+				D8A1F58F20B0930700D45EEA /* Functions */,
 				D8A1F57420B05EEE00D45EEA /* Assets.xcassets */,
 				D8A1F57620B05EEE00D45EEA /* LaunchScreen.storyboard */,
 				D8A1F57920B05EEE00D45EEA /* Info.plist */,
@@ -82,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				D8A1F58320B05F2D00D45EEA /* DisplayWeatherVC.xib */,
+				D816FE5C20B0A82B0084CFDA /* MyLocationAnnotation.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -92,6 +107,25 @@
 				D8A1F58220B05F2D00D45EEA /* DisplayWeatherVC.swift */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D8A1F58A20B070ED00D45EEA /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				D8A1F58B20B0711300D45EEA /* NetworkController.swift */,
+				D8A1F58D20B092F200D45EEA /* DataAccessObject.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		D8A1F58F20B0930700D45EEA /* Functions */ = {
+			isa = PBXGroup;
+			children = (
+				D816FE6020B107420084CFDA /* createStringWithLocation.swift */,
+				D816FE6220B107790084CFDA /* createLocationFromString.swift */,
+				D816FE5E20B0DAFD0084CFDA /* convertKelvinToFahrenheit.swift */,
+			);
+			path = Functions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,8 +200,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D816FE5D20B0A82B0084CFDA /* MyLocationAnnotation.swift in Sources */,
+				D816FE6320B107790084CFDA /* createLocationFromString.swift in Sources */,
+				D8A1F58C20B0711300D45EEA /* NetworkController.swift in Sources */,
 				D8A1F58420B05F2D00D45EEA /* DisplayWeatherVC.swift in Sources */,
+				D8A1F58E20B092F200D45EEA /* DataAccessObject.swift in Sources */,
+				D816FE6120B107420084CFDA /* createStringWithLocation.swift in Sources */,
 				D8A1F58720B0633200D45EEA /* Weather.swift in Sources */,
+				D816FE5F20B0DAFD0084CFDA /* convertKelvinToFahrenheit.swift in Sources */,
 				D8A1F58920B0634000D45EEA /* Location.swift in Sources */,
 				D8A1F56E20B05EEE00D45EEA /* AppDelegate.swift in Sources */,
 			);
